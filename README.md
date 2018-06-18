@@ -13,3 +13,7 @@ Install dependencies:
 Run app: 
 
     ng serve
+
+Access app at:
+
+http://localhost:4200/
