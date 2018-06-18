@@ -1,6 +1,6 @@
 # Passwordless App
 
-Simple 'passwordless' app for signing in using firebase 
+Simple 'passwordless' app for signing in using a link sent via email, using firebase 
 
 Clone:
 
