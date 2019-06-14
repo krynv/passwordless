@@ -59,7 +59,7 @@ export class PasswordlessAuthComponent implements OnInit {
 
                 // sign in and remove from local storage
                 const result = await this.afAuth.auth.signInWithEmailLink(email, url);
-				window.localStorage.removeItem('emailForSignIn');
+				        window.localStorage.removeItem('emailForSignIn');
 				
             }
         } catch (err) {
