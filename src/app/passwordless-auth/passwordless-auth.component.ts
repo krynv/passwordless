@@ -37,10 +37,10 @@ export class PasswordlessAuthComponent implements OnInit {
             await this.afAuth.auth.sendSignInLinkToEmail(
                 this.email,
                 actionCodeSettings
-			);
+			  );
 			
-            window.localStorage.setItem('emailForSignIn', this.email);
-			this.emailSent = true;
+        window.localStorage.setItem('emailForSignIn', this.email);
+			  this.emailSent = true;
 			
         } catch (err) {
             this.errorMessage = err.message;
