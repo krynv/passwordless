@@ -7,6 +7,7 @@ import { Router } from '@angular/router';
     templateUrl: './passwordless-auth.component.html',
     styleUrls: ['./passwordless-auth.component.scss']
 })
+
 export class PasswordlessAuthComponent implements OnInit {
     user;
     email: string;
