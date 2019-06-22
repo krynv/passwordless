@@ -1,6 +1,6 @@
 # Passwordless App
 
-Simple 'passwordless' app for signing in using a link sent via email, using [Google Firebase](https://firebase.google.com/docs)
+A simple 'passwordless' app for signing in to a website using a web ink sent via email. This solution uses [Google Firebase](https://firebase.google.com/docs)
 
 Clone:
 
