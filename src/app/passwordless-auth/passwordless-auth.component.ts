@@ -30,7 +30,7 @@ export class PasswordlessAuthComponent implements OnInit {
     async sendEmailLink() {
         const actionCodeSettings = {
             // redirect url
-            url: 'http://localhost:4200/login',
+            url: 'https://passwordlessapp-4835b.firebaseapp.com/login', //url: 'http://localhost:4200/login',
             handleCodeInApp: true
         };
 
@@ -38,11 +38,11 @@ export class PasswordlessAuthComponent implements OnInit {
             await this.afAuth.auth.sendSignInLinkToEmail(
                 this.email,
                 actionCodeSettings
-			  );
-			
-        window.localStorage.setItem('emailForSignIn', this.email);
-			  this.emailSent = true;
-			
+            );
+
+            window.localStorage.setItem('emailForSignIn', this.email);
+            this.emailSent = true;
+
         } catch (err) {
             this.errorMessage = err.message;
         }
@@ -60,8 +60,8 @@ export class PasswordlessAuthComponent implements OnInit {
 
                 // sign in and remove from local storage
                 const result = await this.afAuth.auth.signInWithEmailLink(email, url);
-				        window.localStorage.removeItem('emailForSignIn');
-				
+                window.localStorage.removeItem('emailForSignIn');
+
             }
         } catch (err) {
             this.errorMessage = err.message;

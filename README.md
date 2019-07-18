@@ -1,8 +1,14 @@
 # Passwordless App
 
-A simple 'passwordless' app for signing in to a website using a web link sent via email. This solution uses [Google Firebase](https://firebase.google.com/docs)
+A simple 'passwordless' authentication app for signing in to a website using a web link sent via email. 
 
-Note: You need to have the latest version of NodeJS installed (10.9+ for Angular CLI 8+)
+This solution uses Angular 8 with routing, [Google Firebase](https://firebase.google.com/docs) and [AngularFire 2](https://github.com/angular/angularfire20) for authentication and hosting.
+
+# Live Demo
+https://passwordlessapp-4835b.firebaseapp.com
+
+
+Note: You need to have the latest version of NodeJS installed (10.9+ for Angular CLI 8+) to run this project locally.
 
 Clone:
 
@@ -20,3 +26,7 @@ Run app:
 Access app at:
 
 http://localhost:4200/
+
+This application will send you an email link to log in.
+
+Please note that for demo purposses, the callback URL is set to the hosted app on firebase - so it will prompt you for additional verification when you run the app locally & click the verification link you received via email.

@@ -6,11 +6,12 @@
 export const environment = {
     production: false,
     firebase: {
-        apiKey: "AIzaSyC1TRRv1GEAvYOXcxmWNOtAqw2LuGNCz2U",
-        authDomain: "passwordlessapp.firebaseapp.com",
-        databaseURL: "https://passwordlessapp.firebaseio.com",
-        projectId: "passwordlessapp",
-        storageBucket: "passwordlessapp.appspot.com",
-        messagingSenderId: "92839145381"
+        apiKey: "AIzaSyBDPNlOaC2av2xf0fJeqvDgwDTT6xb951U",
+        authDomain: "passwordlessapp-4835b.firebaseapp.com",
+        databaseURL: "https://passwordlessapp-4835b.firebaseio.com",
+        projectId: "passwordlessapp-4835b",
+        storageBucket: "",
+        messagingSenderId: "1093037091913",
+        appId: "1:1093037091913:web:0716f0e85f0dc6f6"
     },
 };
