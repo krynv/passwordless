@@ -1,5 +1,7 @@
 # Passwordless App
 
+[![CircleCI](https://circleci.com/gh/krynv/passwordless.svg?style=svg)](https://circleci.com/gh/krynv/passwordless)
+
 A simple 'passwordless' authentication app for signing in to a website using a web link sent via email. 
 
 This solution uses Angular 8 with routing, [Google Firebase](https://firebase.google.com/docs) and [AngularFire 2](https://github.com/angular/angularfire20) for authentication and hosting.
