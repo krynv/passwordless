@@ -21,7 +21,7 @@ Install dependencies:
 
 Run app: 
 
-    ng serve
+    npm start
 
 Access app at:
 
