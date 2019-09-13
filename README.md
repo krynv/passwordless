@@ -7,7 +7,7 @@ A simple 'passwordless' authentication app for signing in to a website using a w
 This solution uses Angular 8 with routing, [Google Firebase](https://firebase.google.com/docs) and [AngularFire 2](https://github.com/angular/angularfire20) for authentication and hosting.
 
 # Live Demo
-https://passwordlessapp-4835b.firebaseapp.com
+https://passwordless.flix.industries
 
 
 Note: You need to have the latest version of NodeJS installed (10.9+ for Angular CLI 8+) to run this project locally.
