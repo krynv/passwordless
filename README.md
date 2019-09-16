@@ -10,7 +10,7 @@ This solution uses Angular 8 with routing, [Google Firebase](https://firebase.go
 https://passwordless.flix.industries
 
 
-Note: You need to have the latest version of NodeJS installed (10.9+ for Angular CLI 8+) to run this project locally.
+> **Note**: You need to have the latest version of NodeJS installed (10.9+ for Angular CLI 8+) to run this project locally.
 
 Clone:
 
